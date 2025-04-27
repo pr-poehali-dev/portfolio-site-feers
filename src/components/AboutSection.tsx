@@ -1,4 +1,4 @@
-import { Clock, Award, Tool } from 'lucide-react';
+import { Clock, Award, Wrench } from 'lucide-react';
 
 const AboutSection = () => {
   const advantages = [
@@ -13,7 +13,7 @@ const AboutSection = () => {
       description: 'Предоставляем официальную гарантию на все виды работ от 3 лет'
     },
     {
-      icon: <Tool size={32} className="text-feers-accent" />,
+      icon: <Wrench size={32} className="text-feers-accent" />,
       title: 'Опытные мастера',
       description: 'Наши специалисты имеют более 10 лет опыта в сфере ремонта и отделки'
     }
